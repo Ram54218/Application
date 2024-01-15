@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: NationalPage(),
+      home: NationalPage(),//create a homepage
     );
   }
 }
