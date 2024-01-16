@@ -26,7 +26,7 @@ class _MyAppState extends State<MyApp> {
         ],
         child: const MaterialApp(
           // home: CubitPage()
-          home: BlocPage(),
+          home: BlocPage(),//
         ));
   }
 }
