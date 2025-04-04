@@ -2,12 +2,10 @@ import 'package:employee_data/constant/style/cm_text_style.dart';
 import 'package:employee_data/features/employee_add_edit/presentation/page/add_edit_employee_page.dart';
 import 'package:employee_data/features/employee_list/presentation/employeeList_bloc/all_list_bloc.dart';
 import 'package:employee_data/features/employee_list/presentation/employeeList_bloc/all_list_state.dart';
-import 'package:employee_data/features/employee_list/presentation/employeeList_bloc/employee_list_bloc.dart';
 import 'package:employee_data/features/employee_list/presentation/page/employee_list_page/pervious_employee_list_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../employee_add_edit/presentation/bloc/add_employee_bloc/add_employee_bloc.dart';
-import '../../employeeList_bloc/employee_list_state.dart';
 import 'current_emp_list_view.dart';
 
 class EmployeeListPage extends StatelessWidget {
